@@ -5,7 +5,7 @@ import myphoto from '../../assets/Yemi Ayeni Image.jpeg';
 
 
 
-export default function Home(setCurrentPage) {
+function Home() {
     return (
       <div className="hero">
         {/* <h1>Home Page</h1> */}
@@ -15,7 +15,7 @@ export default function Home(setCurrentPage) {
         <div className="text-box">
           <h1 className="heading-primary">
             Hello, this is
-            <span className="heading-primary-main"> Irakli Eradze </span>
+            <span className="heading-primary-main"> Yemi Ayeni </span>
             <a
               className="heading-primary-sub"
               // href="#Portfolio"
@@ -33,3 +33,4 @@ export default function Home(setCurrentPage) {
     );
   }
   
+  export default Home;
