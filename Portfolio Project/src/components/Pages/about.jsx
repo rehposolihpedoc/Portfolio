@@ -3,7 +3,7 @@ import './custom.css';
 import myphoto from '../../assets/Yemi Ayeni Image.jpeg'
 
 
-export default function About() {
+function About() {
 return (
     <div className="about-me-container" style={{ minHeight: '100vh' }}>
     <h1 className="about-heading">About Me</h1>
@@ -35,3 +35,5 @@ return (
 );
 
 }
+
+export default About;

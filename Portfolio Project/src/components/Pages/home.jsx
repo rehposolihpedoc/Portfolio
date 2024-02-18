@@ -8,7 +8,7 @@ import myphoto from '../../assets/Yemi Ayeni Image.jpeg';
 function Home() {
     return (
       <div className="hero">
-        {/* <h1>Home Page</h1> */}
+        {<h1>Home Page</h1>}
         <div className="logo-box">
           <img src={myphoto} alt="my-photo" className="logo" />
         </div>
