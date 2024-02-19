@@ -9,9 +9,8 @@ function App() {
   return (
     <>
     <Nav />
-    <div className="bucket-app">
     <Home />
-  </div>
+ 
   </>
   );
 }

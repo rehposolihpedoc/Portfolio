@@ -8,7 +8,7 @@ import myphoto from '../../assets/Yemi Ayeni Image.jpeg';
 function Home() {
     return (
       <div className="hero">
-        {<h1>Home Page</h1>}
+        {useState}
         <div className="logo-box">
           <img src={myphoto} alt="my-photo" className="logo" />
         </div>
@@ -18,15 +18,10 @@ function Home() {
             <span className="heading-primary-main"> Yemi Ayeni </span>
             <a
               className="heading-primary-sub"
-              // href="#Portfolio"
-              // onClick={() => setCurrentPage('Project')}
+            
             >     Web Developer 
             </a>
-            {/* <a
-                className="nav-link"
-                href="#Portfolio"
-                onClick={() => setCurrentPage('Project')}
-              ></a> */}
+           
           </h1>
         </div>
       </div>
