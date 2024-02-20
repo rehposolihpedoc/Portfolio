@@ -1,5 +1,7 @@
 import React from 'react';
-import YemisResume from '../../assets/Yemi Ayeni PM Resume .docx'
+import YemisResume from '../../assets/DocResume';
+import Home from './home';
+
 
 function Resume() {
     return (
@@ -8,7 +10,7 @@ function Resume() {
             <p>Below is my resume with my past employment experience.  Please take a look and if you have any questions feel free to reach out on the Contacts tab.</p>
             <a href={YemisResume} Download='Yemi Ayeni PM Resume .docx'>Download Yemi's Resume</a>
             <br></br>
-            <h2>Sean's Proficiencies</h2>
+            <h2>Yemi's Proficiencies</h2>
             <ul>
                 <li>JavaScript</li>
                 <li>SQL</li>

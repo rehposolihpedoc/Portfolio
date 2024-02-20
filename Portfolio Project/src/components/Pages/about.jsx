@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './custom.css';
 import myphoto from '../../assets/Yemi Ayeni Image.jpeg'
-
+import NavTabs from '../NavTabs';
+import Contact from './Contact';
 
 function About() {
 return (

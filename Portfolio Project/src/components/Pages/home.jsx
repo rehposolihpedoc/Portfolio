@@ -2,8 +2,10 @@
 import React, { useState } from 'react';
 import './custom.css';
 import myphoto from '../../assets/Yemi Ayeni Image.jpeg';
-
-
+import Error from './Error'
+import Contact from './Contact';
+import About from './about';
+import Resume from './Resume';
 
 function Home() {
     return (
